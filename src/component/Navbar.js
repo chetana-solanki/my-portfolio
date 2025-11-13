@@ -6,17 +6,17 @@ export default function Navbar() {
     function changeMode() {
         if (darkMode) { // if mode is true change it to false
             setdarkMode(false)
-        } else{ // if mode is false set it to true
+        } else { // if mode is false set it to true
             setdarkMode(true)
         }
     }
     useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [darkMode]);
+        if (darkMode) {
+            document.documentElement.classList.add("dark");
+        } else {
+            document.documentElement.classList.remove("dark");
+        }
+    }, [darkMode]);
     return (
         <nav>
             <ul className="flex items-center justify-center md:justify-end py-4 px-2 md:pr-20 space-x-2 md:space-x-10">

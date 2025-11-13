@@ -7,8 +7,7 @@ export default function Home() {
         <motion.div className="flex flex-col-reverse md:flex-row items-center md:items-start px-6 md:pl-20"
             initial={{ y: 50 }}
             animate={{ y: 0 }}
-            transition={{ duration: 0.5 }}
-            >
+            transition={{ duration: 0.5 }}>
             <div className="pt-10 md:pt-52 px-4 md:px-10 w-full md:w-3/5 text-center md:text-left">
                 <h2><b>Hello,</b></h2>
                 <h1><b className="text-4xl md:text-5xl">I'm </b><b className="text-yellow-500 text-4xl md:text-5xl">Chetana</b></h1>
