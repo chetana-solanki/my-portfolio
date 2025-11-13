@@ -13,7 +13,7 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <div className='min-h-screen dark:bg-black dark:text-white bg-white text-black'>
         <Navbar />
         <Routes>

@@ -43,6 +43,10 @@ export default function Projects() {
                 <p className="text-sm text-yellow-400 mt-1">
                     Tech: React, HTML, TailwindCss, JavaScript
                 </p>
+                <div className="flex items-center gap-2 pt-1">
+                <RiBroadcastLine  className="animate-pulse" color='red'/>
+                <a href="https://chetana-solanki.github.io/my-portfolio/">https://chetana-solanki.github.io/my-portfolio/</a>
+                </div>
             </div>
         </motion.div>
 
