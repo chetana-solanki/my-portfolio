@@ -9,6 +9,19 @@ export default function Projects() {
             animate={{ rotate: 0, opacity: 1 }}
             transition={{ duration: 1 }}
         >
+            <div className="dark:bg-gray-900 rounded-2xl p-4 mt-4 transition-transform shadow-lg shadow-blue-500/30">
+                <h2 className="text-xl font-bold text-white">projects Name: NewsApp</h2>
+                <p className="text-gray-400 mt-2">
+                    Built a modern, responsive web app using React.js and Tailwind CSS that fetches real-time news via the NewsData API. You can browse the latest headlines, filter by category, and stay updated with a clean and smooth user experience.
+                </p>
+                <p className="text-sm text-yellow-400 mt-1">
+                    Tech: React JS, JavaScript, Tailwind CSS, OpenSource
+                </p>
+                <div className="flex items-center gap-2 pt-1">
+                    <RiBroadcastLine className="animate-pulse" color='red' />
+                    <a href="https://chetana-solanki.github.io/NewsApp/" target='_blank' rel="noreferrer">https://chetana-solanki.github.io/NewsApp/</a>
+                </div>
+            </div>
             <div className="dark:bg-gray-900 rounded-2xl p-4 transition-transform shadow-lg shadow-blue-500/30">
                 <h2 className="text-xl font-bold text-white">projects Name: Weather App</h2>
                 <p className="text-gray-400 mt-2">
@@ -19,21 +32,7 @@ export default function Projects() {
                 </p>
                 <div className="flex items-center gap-2 pt-1">
                     <RiBroadcastLine className="animate-pulse" color='red' />
-                    <a href="https://chetana-solanki.github.io/weather-app/">https://chetana-solanki.github.io/weather-app/</a>
-                </div>
-            </div>
-            <div className="dark:bg-gray-900 rounded-2xl p-4 mt-4 transition-transform shadow-lg shadow-blue-500/30">
-                <h2 className="text-xl font-bold text-white">projects Name: School Management Website</h2>
-                <p className="text-gray-400 mt-2">
-                    A fully functional school management system built using Python and Django,
-                    featuring student, teacher, and staff data management with authentication and database integration.
-                </p>
-                <p className="text-sm text-yellow-400 mt-1">
-                    Tech: Python, Django, HTML, CSS
-                </p>
-                <div className="flex items-center gap-2 pt-1">
-                    <RiBroadcastLine className="animate-pulse" color='red' />
-                    <a href="https://chetana.pythonanywhere.com/">https://chetana.pythonanywhere.com/</a>
+                    <a href="https://chetana-solanki.github.io/weather-app/" target='_blank' rel="noreferrer">https://chetana-solanki.github.io/weather-app/</a>
                 </div>
             </div>
             <div className="dark:bg-gray-900 rounded-2xl p-4 mt-4 transition-transform shadow-lg shadow-blue-500/30">
@@ -48,6 +47,21 @@ export default function Projects() {
                     <a href="https://chetana-solanki.github.io/my-portfolio/">https://chetana-solanki.github.io/my-portfolio/</a>
                 </div>
             </div>
+            <div className="dark:bg-gray-900 rounded-2xl p-4 mt-4 transition-transform shadow-lg shadow-blue-500/30">
+                <h2 className="text-xl font-bold text-white">projects Name: School Management Website</h2>
+                <p className="text-gray-400 mt-2">
+                    A fully functional school management system built using Python and Django,
+                    featuring student, teacher, and staff data management with authentication and database integration.
+                </p>
+                <p className="text-sm text-yellow-400 mt-1">
+                    Tech: Python, Django, HTML, CSS
+                </p>
+                <div className="flex items-center gap-2 pt-1">
+                    <RiBroadcastLine className="animate-pulse" color='red' />
+                    <a href="https://chetana.pythonanywhere.com/" target='_blank' rel="noreferrer">https://chetana.pythonanywhere.com/</a>
+                </div>
+            </div>
+            
         </motion.div>
 
     )

@@ -30,7 +30,7 @@ export default function About() {
           </p>
           <p className="flex mt-1">
             <MdEmail size={15} className="mt-1 mr-2 text-red-700" />
-            <a href='mailto:chetanapatel220@gmail.com'>chetanapatel220@gmail.com</a>
+            <a href='mailto:solankichetana06@gmail.com'>solankichetana06@gmail.com</a>
           </p>
           <p className="flex mt-1">
             <FaHome size={15} className="mt-1 mr-2 text-yellow-300" />

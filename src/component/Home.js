@@ -15,7 +15,7 @@ export default function Home() {
                 <p className="text-sm md:text-base pt-2 leading-relaxed">
                     I am a skilled and passionate fullstack developer with experience in creating visually appealing and user-friendly Website.
                 </p>
-                <button onClick={() => window.location.href = "mailto:chetanapatel220@gmail.com"} className="text-black font-thin text-lg cursor-pointer hover:bg-slate-300 rounded-lg mt-5 h-8 w-24 bg-green-500">
+                <button onClick={() => window.location.href = "mailto:solankichetana06@gmail.com"} className="text-black font-thin text-lg cursor-pointer hover:bg-slate-300 rounded-lg mt-5 h-8 w-24 bg-green-500">
                     <b>Hire me</b>
                 </button>
             </div>
